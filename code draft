@@ -3,9 +3,9 @@ pragma solidity ^0.8.0;
 
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
-contract MyCryptocurrency {
-    string public name = "MyCryptocurrency";
-    string public symbol = "MYC";
+contract SPYDR {
+    string public name = "SPYDR";
+    string public symbol = "SPYDR";
     uint8 public decimals = 18;
     uint256 public totalSupply;
     uint256 public currentPrice; // Added to track the current price.
